@@ -23,6 +23,7 @@
 文章一般都放在`_posts`文件夹里，每篇文章的开头都需要设置一些头信息：
   
   格式如下：
+
     layout: post
 
     title: 'xxx'
@@ -39,13 +40,13 @@
 
 #### Navigation links
 
-nav:
+  nav:
 
-  home: '/'
+    home: '/'
 
-  food: '/food.html'
+    food: '/food.html'
 
-  scenery:'scenery.html'
+    scenery:'scenery.html'
 
 ### 侧边栏
 
@@ -132,7 +133,7 @@ postPatterns: 'circuitBoard'
 	└── gulpfile.js # 自动化任务脚本
 	└── index.html # 模板首页
 	└── food.html # 食物tag页面
-  └── scenery.html # 风景tag页面
+	└── scenery.html # 风景tag页面
 	└── package.json # 管理项目的依赖项
 
 
