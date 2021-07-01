@@ -21,23 +21,30 @@
 ### 后台发布其他展示内容
 
 文章一般都放在`_posts`文件夹里，每篇文章的开头都需要设置一些头信息：
+  
+  格式如下：
+    layout: post
 
----
-layout: post
-title: 'xxx'
-subtitle: '相关描述'
-date: 2021-06-18
-tags: jekyll
----
+    title: 'xxx'
+
+    subtitle: '相关描述'
+
+    date: 2021-06-18
+
+    tags: jekyll
 
 ### 导航
 
 导航栏信息需要以下面的格式进行配置：
 
 #### Navigation links
+
 nav:
+
   home: '/'
+
   food: '/food.html'
+
   scenery:'scenery.html'
 
 ### 侧边栏
@@ -48,7 +55,9 @@ nav:
 
 #### SNS settings 配置网站url
 sns:
+
   zhuhu: '//www.zhihu.com/'
+
   weibo: '//weibo.com/'
 
 ### 标签
@@ -57,6 +66,7 @@ sns:
 
 #### Tags
 recommend-tags: true
+
 recommend-condition-size: 12
 
 ### 文章搜索
