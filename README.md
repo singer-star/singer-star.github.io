@@ -57,18 +57,18 @@
 #### SNS settings 配置网站url
 sns:
 
-  zhuhu: '//www.zhihu.com/'
+    zhuhu: '//www.zhihu.com/'
 
-  weibo: '//weibo.com/'
+    weibo: '//weibo.com/'
 
 ### 标签
 
 对侧边栏的标签模块进行相应配置：
 
 #### Tags
-recommend-tags: true
+    recommend-tags: true
 
-recommend-condition-size: 12
+    recommend-condition-size: 12
 
 ### 文章搜索
 
