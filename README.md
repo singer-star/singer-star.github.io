@@ -122,6 +122,8 @@ postPatterns: 'circuitBoard'
 	├── _site # Jekyll将源码处理后生成的站点文件，里面的内容可直接发布
 	├── assets # 存放用于线上环境的静态资源，如需修改css和js文件请到dev文件夹
 	|   └── img #  图片文件
+	|   └── css # dev文件夹中sass编译后的样式文件
+	|   └── js # dev文件夹中处理后的脚本文件
 	├── dev # 开发文件
 	|   ├── js # 存放脚本源码
 	|   └── sass # 样式源码
